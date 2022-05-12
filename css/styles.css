@@ -1,0 +1,50 @@
+body {
+  background-color: hsl(0, 0%, 98%);
+
+}
+
+.upper-part {
+  text-align: center;
+}
+
+h1 {
+}
+
+h2{
+}
+
+h3 {
+}
+
+.lower-part {
+  position: relative;
+  width: 100%;
+}
+
+.top-box {
+  position: relative;
+  width: 35%;
+  margin: auto auto auto 30%;
+}
+
+.left-box {
+  position: relative;
+  width: 35%;
+  float: left;
+}
+
+.right-box {
+  position: relative;
+  width: 35%;
+  float: right;
+}
+
+.bottom-box {
+  position: relative;
+  width: 35%;
+  margin: 30% auto auto 30%;
+}
+
+footer {
+  position: relative;
+}
