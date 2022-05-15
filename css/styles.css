@@ -1,50 +1,61 @@
-body {
+.body {
   background-color: hsl(0, 0%, 98%);
+}
 
+.lower-part {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  grid-template-areas:
+    "";
 }
 
 .upper-part {
   text-align: center;
-}
-
-h1 {
-}
-
-h2{
-}
-
-h3 {
-}
-
-.lower-part {
-  position: relative;
-  width: 100%;
+  grid-column-start: 3fr;
+  grid-column-end: 8fr;
+  grid-row-start: 2fr;
+  grid-row-end: 3fr;
+  border: 1px solid black;
 }
 
 .top-box {
-  position: relative;
-  width: 35%;
-  margin: auto auto auto 30%;
+  grid-column-start: 3fr;
+  grid-column-end: 8fr;
+  grid-row-start: 2fr;
+  grid-row-end: 3fr;
+  border: 1px solid black;
 }
 
 .left-box {
-  position: relative;
-  width: 35%;
-  float: left;
+  grid-column-start: 3fr;
+  grid-column-end: 8fr;
+  grid-row-start: 2fr;
+  grid-row-end: 3fr;
+  border: 1px solid black;
+
 }
 
 .right-box {
-  position: relative;
-  width: 35%;
-  float: right;
+  grid-column-start: 3fr;
+  grid-column-end: 8fr;
+  grid-row-start: 2fr;
+  grid-row-end: 3fr;
+  border: 1px solid black;
 }
 
 .bottom-box {
-  position: relative;
-  width: 35%;
-  margin: 30% auto auto 30%;
+  grid-column-start: 3fr;
+  grid-column-end: 8fr;
+  grid-row-start: 2fr;
+  grid-row-end: 3fr;
+  border: 1px solid black;
+
 }
 
 footer {
   position: relative;
 }
+
+@media only screen and (max-width: 550px; ) {}
